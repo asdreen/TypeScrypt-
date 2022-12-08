@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 import { SpaceNews } from "../type/index";
 import Article from "./ArticleNews";
 
-// in this page we will fetch the articles from the api to display on the main page
-
 export default function News() {
   const [newsArticles, SetNewsArticles] = useState<SpaceNews[]>([]);
 
